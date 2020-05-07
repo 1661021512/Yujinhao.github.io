@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>B站粉丝数据可视化</title>
+    {% for jsfile_name in script_list %}
+        <script src="{{ host }}/{{ jsfile_name }}.js"></script>
+    {% endfor %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}" type="text/css">
+</head>
+<body >
+  <div>{{ myechart|safe }}</div>
+<h2>
+    暂时还不会在flask中调整pyecharts图表在网页中的位置
+</h2>
+<h2 onclick='location.href=("/")' >
+    那么回去吧
+</h2>
+</body>
+
+</html>

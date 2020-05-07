@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}" type="text/css">
+</head>
+<body background="{{ url_for('static', filename='images/111.webp') }}" STYLE="background-size:100%;">
+    <div id="6481bd2fd5ef418b83d943e64bb93ea9" class="chart-container" style="width:900px; height:500px;margin: auto"></div>
+    <script>
+        var chart_6481bd2fd5ef418b83d943e64bb93ea9 = echarts.init(
+            document.getElementById('6481bd2fd5ef418b83d943e64bb93ea9'), 'white', {renderer: 'canvas'});
+        var option_6481bd2fd5ef418b83d943e64bb93ea9 = {
+    "backgroundColor": "#CCCCCC",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "\u70ed\u5ea6",
+            "data": [
+                [
+                    562,
+                    1829,
+                    1322,
+                    3063,
+                    1999,
+                    866
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#CD0000"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u70ed\u5ea6"
+            ],
+            "selected": {
+                "\u70ed\u5ea6": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": "\u6076\u641e",
+                "max": 3500
+            },
+            {
+                "name": "\u641e\u7b11\u89c6\u9891",
+                "max": 3500
+            },
+            {
+                "name": "\u9ad8\u80fd",
+                "max": 3500
+            },
+            {
+                "name": "\u751f\u6d3b",
+                "max": 3500
+            },
+            {
+                "name": "Bili\u65b0\u661f\u8ba1\u5212",
+                "max": 3500
+            },
+            {
+                "name": "\u9b3c\u755c",
+                "max": 3500
+            }
+        ],
+        "name": {
+            "textStyle": {
+                "color": "#fff"
+            }
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 1
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "text": "B\u7ad9\u8bdd\u9898\u70ed\u5ea6\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_6481bd2fd5ef418b83d943e64bb93ea9.setOption(option_6481bd2fd5ef418b83d943e64bb93ea9);
+    </script>
+<h2 onclick='location.href=("/")' >
+    那么回去吧
+</h2>
+</body>
+</html>

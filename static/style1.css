@@ -1,0 +1,22 @@
+/* 页面整体 */
+body {
+    background-repeat: no-repeat;
+    max-width: 580px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    text-align:center;
+    color: #000000;
+}
+footer {
+    color: #888;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
